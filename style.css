@@ -1,0 +1,23 @@
+body {
+    background-color: #5A99A7;
+}
+
+.container {
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* assign min-height */
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    color: #224B5A;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
