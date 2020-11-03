@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habit Rabbit</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="container">
+    <div>
 
-        <img src="HabitRabit.png" alt="This is the logo">
-
+        <img src="HabitRabit.png" alt="This is the logo" id="logo" class="img">
+    </div>
+    <div>
         <h1>See what Habit Rabbit has to say:</h1>
-
-        <button>Start a new habit</button>
-
+    </div>
+    <div class="button-container">
+        
+        <button class="primarybutton" onclick="generator()">Start a new habit</button>
     </div>
 
 </body>
 
-<footer>All rights reserved ©HabitRabbit</footer>
-
+<footer>
+        All rights reserved ©HabitRabbit
+</footer>
 </html>
