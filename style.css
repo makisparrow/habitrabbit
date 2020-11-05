@@ -33,7 +33,13 @@ h1 {
     justify-content: center;
 }
 
+.both-button-container {
+    width: 50vh;
+    
+}
+
 .primarybutton {
+    width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 36px;
     color: #F9FEE7;
@@ -45,8 +51,43 @@ h1 {
     background-color: #134B57;
     border: none;
     border-radius: 64px;
-
 }
+.acceptbuttonclass {
+    display: flex;
+    flex-direction: row;
+}
+
+    .secondarybutton {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    color: #224B5A;
+    word-spacing: 1.5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: #F9FEE7;
+    border: none;
+    border-radius: 64px;
+    margin-top: 24px;
+}
+
+    .inputfield {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    color: #224B5A;
+    word-spacing: 1.5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: #F9FEE7;
+    border: none;
+    border-radius: 64px;
+    margin-top: 24px;
+    margin-right: 18px;
+}
+
 
 .habit-title {
     font-size: 68px;
