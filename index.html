@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link href="page2.html" id="linkpage2"> 
 </head>
 
 <body>
@@ -20,10 +21,18 @@
     <div>
         <h1>See what Habit Rabbit has to say:</h1>
     </div>
+
     <div class="button-container">
         <div id="titlebox" class="habit-title"></div> 
         <div id="descriptionbox"></div> 
-        <button class="primarybutton" onclick="clickAction()">Start a new habit</button>
+
+        <div class=both-button-container>
+
+            <button class="primarybutton" id="toggleButton" onclick="clickAction()">Start a new habit</button>
+
+            <div id="action-div" class="acceptbuttonclass"></div>
+
+        </div>
     </div>
 
 </body>
