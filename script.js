@@ -15,6 +15,7 @@ const listOfHabbits = [
 function clickAction () {
   let pCheck = document.querySelector ('#titlebox p') 
   let pCheck2 = document.querySelector ('#descriptionbox p')
+  
   const randomHabbit = randomElement(listOfHabbits)
   
   if (pCheck) { 
@@ -40,6 +41,7 @@ function clickAction () {
 
     let wrapperElement2 = document.getElementById('descriptionbox')
     wrapperElement2.appendChild(habitDescription) 
+    
     wrapperElement2.classList.add('habit-description')
 
     //Input field
@@ -57,16 +59,18 @@ function clickAction () {
     let acceptChallange = document.createElement('button')
     acceptChallange.textContent = "Accept this habit"
 
-    let accpetElement = document.getElementById('action-div')
-    accpetElement.appendChild(acceptChallange)
-
-    // accpetElement.addEventListener("click", querySelector("#linkpage2"))
+    let acceptElement = document.getElementById('action-div')
+    acceptElement.appendChild(acceptChallange)
 
     acceptChallange.classList.add('secondarybutton')
 
+    acceptChallange.addEventListener("click", function() {
+    location.href = "page2.html"    
+  })
+
   }
-    let buttonChange = document.querySelector("#toggleButton")  
-  // console.dir(toggleButton);
+    
+  let buttonChange = document.querySelector("#toggleButton")  
 
 if (buttonChange) {
     toggleButton.innerText = "Generate another habit"
