@@ -65,11 +65,9 @@ function clickAction() {
     acceptChallange.classList.add('secondarybutton')
 
     acceptChallange.addEventListener("click", function () {
-      location.href = "/page2.html?name=max"
+      let name = inputForm.value
+      location.href = "page2.html?name=" + name
     })
-
-    
-
   }
 
   let buttonChange = document.querySelector("#toggleButton")

@@ -39,7 +39,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 18px;   
+    margin-top: 18px;
 }
 
 .primarybutton {
@@ -116,9 +116,26 @@ h1 {
     background-color: rgba(249, 254, 231, 1);
     padding: 8px 32px;
     border-radius: 16px;
-    /* /* height: 20vh; */
     width: 70vh;
     margin-bottom: 48px;
+}
+
+.congratulations {
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin-top: 16px;
+    max-width: 400px;
+    min-width: 100px;
+    max-width: 100%;
+    color: #F9FEE7;
+    font-family: 'Ranchers', cursive;
+    text-align: center;
+}
+
+#my-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 footer {
@@ -127,11 +144,11 @@ footer {
     width: 100%;
     text-align: center;
     color: #124152;
-
 }
+
 @media only screen and (min-width: 1200px) {
     .habit-title {
-    font-size: 86px;
+        font-size: 86px;
     }
     .habit-description {
         font-size: 20px;
@@ -140,44 +157,42 @@ footer {
     .both-button-container {
         margin-top: 24px;
     }
-  }
+}
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .both-button-container {
         width: 80vw;
-  }
-
-  .primarybutton {
-    font-size: 24px;
-    padding: 8px 16px;
-}
-
-.secondarybutton {
-    font-size: 14px;
-    padding: 8px 16px;
-    border-radius: 16px;
-}
-.inputfield {
-    font-size: 14px;
-    padding: 8px 16px;
-    border-radius: 16px;
-    margin-right: 16px;
-}
-.habit-description {
-    font-size: 16px;
-    width: 70vw;
-    margin-bottom: 48px;
-}
-.commitement {
-    margin-top: 8px;
-}
-.habit-title {
-    font-size: 42px;
-}
-.description-container {
-    height: 33vh;
-}
-.img {
-height: 15vh;
-  }
+    }
+    .primarybutton {
+        font-size: 24px;
+        padding: 8px 16px;
+    }
+    .secondarybutton {
+        font-size: 14px;
+        padding: 8px 16px;
+        border-radius: 16px;
+    }
+    .inputfield {
+        font-size: 14px;
+        padding: 8px 16px;
+        border-radius: 16px;
+        margin-right: 16px;
+    }
+    .habit-description {
+        font-size: 16px;
+        width: 70vw;
+        margin-bottom: 48px;
+    }
+    .commitement {
+        margin-top: 8px;
+    }
+    .habit-title {
+        font-size: 42px;
+    }
+    .description-container {
+        height: 33vh;
+    }
+    .img {
+        height: 15vh;
+    }
 }
