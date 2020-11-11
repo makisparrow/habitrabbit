@@ -85,10 +85,16 @@ function clickAction() {
     acceptElement.appendChild(acceptChallange)
 
     acceptChallange.classList.add('secondarybutton')
-
+    
     acceptChallange.addEventListener("click", function () {
       let name = inputForm.value
-      location.href = "page2.html?name=" + name
+      let title = randomHabbit.title
+      if (inputForm.value.length == 0)
+      { 
+         alert("Please fill in your name");  	
+         return false; 
+      }  	
+      location.href = "page2.html?name=" + name + "&" + "title=" + title
     })
   }
 
@@ -101,5 +107,4 @@ function clickAction() {
   else {
     toggleButton.innerText = "Start a new habit"
   }
-
 }
