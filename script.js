@@ -24,13 +24,6 @@ const listOfHabbits = [
   { title: 'Seek inspiration.', description:"It's often difficult to stay motivated for any considerable amount of time. We get discouraged and dissuaded from our goals when things arise in life that send us on tangents and veer us off track. But one of the absolute best ways you can stay motivated in life is to inspire yourself daily.", source: "https://www.entrepreneur.com/slideshow/299317"},
   { title: 'Confront your fears', description:"Breaking through your fears is quite possibly one of the most important habits that you could develop. Get used to doing one thing that makes you feel uncomfortable each and every single day. Talk to a stranger, give someone a compliment, or tell someone the truth about something that makes you feel uncomfortable."},
    
- 
-
-
- 
-
- 
- 
 
 ]
 
