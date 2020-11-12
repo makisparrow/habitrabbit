@@ -124,8 +124,8 @@ h1 {
 .annoucement {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    word-spacing: 1.5px;
-    line-height: 150%;
+    /* word-spacing: 1.5px; */
+    /* line-height: 150%; */
     Color: #124152;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgba(249, 254, 231, 1);
@@ -186,7 +186,7 @@ a:active {
     left: 0;
 }
 
-/* .fb-share-button {
+ .fb-share-button {
     bottom: 25px;
     margin-top: 32px;
     margin-bottom: 36px;
@@ -195,14 +195,17 @@ a:active {
     color: #124152;
 }
 
-.footerdiv {
-    padding: 24px;
-    background-color: khaki;
-} */
+.footer2 {
+    /* bottom: 25px;
+    position: fixed; */
+    width: 100%;
+    text-align: center;
+    color: #124152;
+}
 
-footer, .fb-share-button, .share {
+footer {
     bottom: 25px;
-    /* position: fixed; */
+    position: fixed; 
     width: 100%;
     text-align: center;
     color: #124152;
@@ -272,6 +275,6 @@ footer, .fb-share-button, .share {
     }
     .share {
         font-size: 16px;
-        min-width: 80px;
+        max-width: 85vw; 
     }
 }
