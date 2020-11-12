@@ -10,9 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+    <!-- <a href="//somesite.com/" class="social_share_link"
+        onclick="return !window.open(this.href, 'somesite', 'width=500,height=500')" target="_blank">Share</a> -->
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0"
+        nonce="0NwXKcME"></script>
     <canvas id="my-canvas"></canvas>
     <div>
 
@@ -22,10 +27,18 @@
         <h1>Habit Rabbit says:</h1>
         <h1 class="habit-title">Whoooohoooooo!</h1>
 
+        <div class="annoucement">
+            <p id="myname"></p>
+            <p>We strongly suggest that you <a
+                    href="https://www.google.com/search?q=the+date+66+days+from+now&oq=the+date+66+days+from+now&aqs=chrome..69i57j0i22i30j69i64l2.4555j0j7&sourceid=chrome&ie=UTF-8"
+                    target="_blank"> mark 66 days</a> from now in your calendar and make a promise to yourself to have zero cheat days until then.</p>
+        </div>
+        <p class="congratulations">Share the good news with your friends and invite them to start a new habit:</p>
 
-        <p id="myname" class="congratulations"></p>
-        <!-- <p class="congratulations">If you do this habit for 66 days it will have a good impact in your everyday life.</p> -->
-
+        <div class="fb-share-button" data-href="http://127.0.0.1:5500/page2.html?" data-layout="button_count"
+            data-size="large"><a target="_blank"
+                href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%3A5500%2Fpage2.html&amp;src=sdkpreparse"
+                class="fb-xfbml-parse-ignore">Share</a></div>
     </div>
 
     <script src="script2.js"></script>
