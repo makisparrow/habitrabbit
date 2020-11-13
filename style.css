@@ -219,36 +219,38 @@ footer {
     color: #124152;
 }
 
-@media only screen and (min-width: 3000px) {
+@media only screen and (min-width: 1600px) {
     .img {
-        height: 20vh;
+        height: 28vh;
     }
     .habit-title {
-        font-size: 96px;
+        font-size: 48px;
+        margin-top: 32px;
     }
     .habit-description {
-        font-size: 34px;
-        width: 50vw;
+        font-size: 20px;
+        width: 45vw;
+        animation: ease-in 1,0;
     }
 
     .both-button-container {
-        width: 900px;
+        width: 600px;
     }
 
     .primarybutton{
         width: 100%;
-        font-size: 48px;
+        font-size: 24px;
     }
 
     .secondarybutton {
-        font-size: 32px;
+        font-size: 18px;
         word-spacing: 1.5px;
-        padding: 24px 32px;
+        padding: 16px 24px;
     }
 
     .inputfield {
-        font-size: 32px;
-        padding: 24px 32px;
+        font-size: 18px;
+        padding: 16px 24px;
     }
 
     .annoucement {
@@ -259,31 +261,12 @@ footer {
         margin-top: 24px;
     }
     .share {
-        font-size: 22px;
+        font-size: 24px;
+        color: #124152;
     }
 
     footer {
-        font-size: 36px;
-    }
-}
-
-/* @media only screen and (min-width: 1500px) {
-    .habit-title {
-        font-size: 54px;
-    }
-    .habit-description {
-        font-size: 20px;
-        width: 50vw;
-    }
-    .annoucement {
-        font-size: 20px;
-        width: 50vw;
-    }
-    .both-button-container {
-        margin-top: 24px;
-    }
-    .share {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
@@ -333,4 +316,21 @@ footer {
         font-size: 16px;
         max-width: 85vw; 
     }
-} */
+
+    #my-canvas {
+        height: 800px;
+    }
+
+    .sharewrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .footer2 {
+    bottom: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: #124152;
+    }
+} 
