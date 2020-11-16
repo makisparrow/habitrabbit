@@ -133,7 +133,6 @@ h1 {
     border-radius: 16px;
     width: 70vh;
     margin-top: 28px;
-    
 }
 
 #days {
@@ -149,7 +148,7 @@ h1 {
 .share {
     font-size: 18px;
     letter-spacing: 2px;
-    margin-top: 56px;
+    margin-top: 32px;
     min-width: 100px;
     max-width: 1000px;
     color: #F9FEE7;
@@ -191,12 +190,10 @@ a:active {
 
 .content {
     position: absolute;
-   
 }
 
- .fb-share-button {
+.sharewrapper {
     bottom: 25px;
-    margin-top: 32px;
     margin-bottom: 36px;
     width: 100%;
     text-align: center;
@@ -212,14 +209,11 @@ a:active {
 }
 
 footer {
+    bottom: 10px;
+    position: fixed;
     width: 100%;
     text-align: center;
     color: #124152;
-    /* bottom: 25px;
-    position: fixed; 
-    width: 100%;
-    text-align: center;
-    color: #124152; */
 }
 
 @media only screen and (min-width: 1600px) {
@@ -233,29 +227,24 @@ footer {
     .habit-description {
         font-size: 20px;
         width: 45vw;
-        animation: ease-in 1,0;
+        animation: ease-in 1, 0;
     }
-
     .both-button-container {
         width: 600px;
     }
-
-    .primarybutton{
+    .primarybutton {
         width: 100%;
         font-size: 24px;
     }
-
     .secondarybutton {
         font-size: 18px;
         word-spacing: 1.5px;
         padding: 16px 24px;
     }
-
     .inputfield {
         font-size: 18px;
         padding: 16px 24px;
     }
-
     .annoucement {
         font-size: 20px;
         width: 50vw;
@@ -264,18 +253,31 @@ footer {
         margin-top: 24px;
     }
     .share {
-        font-size: 24px;
-        color: #124152;
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin-top: 32px;
+        min-width: 100px;
+        max-width: 1000px;
+        color: #F9FEE7;
+        font-family: 'Ranchers', cursive;
+        text-align: center;
+        white-space: pre-line;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
     footer {
-        font-size: 18px;
+        bottom: 10px;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        color: #124152;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .both-button-container {
-        width: 80vw;
+        width: 85vw;
     }
     .primarybutton {
         font-size: 24px;
@@ -300,13 +302,13 @@ footer {
     .annoucement {
         font-size: 16px;
         width: 70vw;
-        margin-bottom: 48px;
+        margin-bottom: 22px;
     }
     .commitement {
         margin-top: 8px;
     }
     .habit-title {
-        font-size: 42px;
+        font-size: 38px;
         min-width: 80px;
     }
     .description-container {
@@ -317,23 +319,28 @@ footer {
     }
     .share {
         font-size: 16px;
-        max-width: 85vw; 
+        max-width: 85vw;
     }
-
     #my-canvas {
         height: 800px;
     }
-
     .sharewrapper {
         display: flex;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
+    }
+    footer {
+        bottom: 10px;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        color: #124152;
     }
     .footer2 {
-    bottom: 10px;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    color: #124152;
+        bottom: 10px;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        color: #124152;
     }
-} 
+}
